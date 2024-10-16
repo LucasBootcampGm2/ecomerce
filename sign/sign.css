@@ -26,16 +26,17 @@ main {
   padding: 80px 0;
 }
 
+h1 {
+  margin: 5px;
+}
+
 #create-acount-container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   padding: 15px;
   border-radius: 6px;
-}
-
-#create-acount-container h2 {
-  color: white;
+  background-color: white;
 }
 
 #create-acount-cards {
@@ -53,7 +54,7 @@ main {
   padding: 10px;
   border-radius: 100%;
   border: 1px solid gray;
-  width:  16px;
+  width: 16px;
 }
 
 .create-acount-icons,
