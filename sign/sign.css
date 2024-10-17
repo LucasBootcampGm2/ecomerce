@@ -1,8 +1,5 @@
 #body,
-html,
-main,
-#container,
-#create-acount-container {
+html {
   height: 100%;
 }
 
@@ -22,8 +19,6 @@ main,
 main {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 80px 0;
 }
 
 h1 {
@@ -88,4 +83,27 @@ button:hover {
   background: linear-gradient(135deg, #74b9ff, #6c5ce7);
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(108, 92, 231, 0.7);
+}
+
+@media (max-width: 768px) {
+  main {
+    height: 100%;
+    background-color: white;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 45px 0;
+  }
+
+  #create-acount-container {
+    padding: 15px 30px 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    height: 100vh;
+  }
 }
