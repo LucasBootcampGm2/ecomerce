@@ -1,0 +1,42 @@
+#container {
+  padding: 20px;
+}
+
+.container-phone-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#phone-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.container-input-phone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 2px 0;
+  border-radius: 5px;
+  width: 40%;
+}
+
+#input-phone {
+  height: 32px;
+  border: none;
+  width: 80%;
+}
+
+.input-phone-span {
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .container-phone-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 6px;
+  }
+}
